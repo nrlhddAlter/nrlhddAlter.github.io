@@ -1,9 +1,48 @@
-// Example: Alert on button click
-document.addEventListener('DOMContentLoaded', () => {
-    const button = document.createElement('button');
-    button.textContent = 'Click Me';
-    button.addEventListener('click', () => {
-        alert('Hello, World!');
-    });
-    document.body.appendChild(button);
-});
+body {
+    background-color: #e0f7fa;      /* light cyan-blue */
+    color: #004d40;                 /* dark teal text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #00695c;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    color: #ff1744;                 /* bright red */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffeb3b;                 /* yellow on hover */
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
